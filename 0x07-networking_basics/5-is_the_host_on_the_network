@@ -5,3 +5,5 @@ if [ "$#" -eq 0 ]; then
     echo "Usage: $0 {IP_ADDRESS}"
     exit 1
 fi
+# IP address provided as an argument
+ip_address="$1"
